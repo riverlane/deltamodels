@@ -1,0 +1,53 @@
+# The packages in the groups are ordered alphabetically.
+
+# System tools
+apt-utils
+python3-pip
+
+# dev tools
+build-essential
+ca-certificates
+curl
+git
+gtkwave
+wget
+
+
+# builders 
+autoconf
+bison
+cmake
+flex
+
+# systemc
+libgmp-dev
+libghc-zlib-dev
+
+# Python build dependencies
+libffi-dev
+libgdbm-dev
+libncurses5-dev
+libnss3-dev
+libreadline-dev
+libssl-dev
+zlib1g-dev
+
+# Verilator
+verilator 
+
+# user tools
+gcovr
+gdb
+valgrind
+
+# For network analysis
+tcpdump
+
+# For setting network permissions
+libcap2-bin
+
+# Checkers
+cppcheck
+
+# Documentation
+doxygen

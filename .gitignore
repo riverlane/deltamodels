@@ -1,0 +1,24 @@
+# IDE specific things
+.idea/
+.vscode/
+.devcontainer/devcontainer.json
+
+# Build artifacts
+build/
+
+# Tests / coverage reports
+coverage.xml
+cppcheck.xml
+
+# Data
+*.vcd
+
+# Docs
+docs/_build
+docs-internal/
+
+# Docker container ID
+container
+
+% Logs
+*.log
