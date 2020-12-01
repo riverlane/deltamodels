@@ -1,7 +1,6 @@
 # Deltamodels
 
 [![Build Status](http://jenkins-riverlane.northeurope.cloudapp.azure.com/buildStatus/icon?job=deltamodels_multibranch_build%2Fdev)](http://jenkins-riverlane.northeurope.cloudapp.azure.com/job/deltamodels_multibranch_build/job/dev/)
-![docs_pages_workflow](https://github.com/riverlane/deltamodels/workflows/docs_pages_workflow/badge.svg?branch=dev)
 
 A library of building blocks for your simulation/emulation environemnt.
 The `deltamodels` components let you build a simulator with the right

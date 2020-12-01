@@ -9,12 +9,8 @@ Prerequisites
 -------------
 
 Currently, we only support and test Deltamodels on Ubuntu 20.04.
-Please install docker via:
-
-.. code-block:: console
-
-    $ sudo apt install docker
-
+Please follow `Docker <https://www.docker.com>`_ instructions to set it up
+for your system. 
 
 We are in the process of extending both the supported operating systems.
 If you have specific requirements, you are welcome request support.
@@ -29,7 +25,7 @@ for quick-access.
 
 .. code-block:: console
 
-    $ make shell
+    make shell
 
 This will create the image and open a shell on the remote docker. 
 
@@ -37,6 +33,6 @@ To test your installation and run the tests
 
 .. code-block:: console
 
-    $ make tests
+    make tests
 
 Tests are based on CMake to increase readibility and maintainability.

@@ -68,14 +68,14 @@ Models of wishbone components:
   A SystemC component that traces raw (wishbone) data transactions.
 
 tlms
-====
+----
 
 Transaction Level Models (TLMs) are in general time-agnostic.
 Some of them support backpressure to bridge from Timing Accurate to
 Timing Agnostic approach.
 
 tlm_adapters
-------------
+^^^^^^^^^^^^
 
 Logic that bridges tlm to other buses and vice-versa:
 
@@ -83,19 +83,19 @@ Logic that bridges tlm to other buses and vice-versa:
 Block that converts TLM requests into Wishbone transactions
 
 tlm_common
-----------
+^^^^^^^^^^
 
 Contains common reusable blocks, like initiators and glue logic
 
 tlm_memories
-------------
+^^^^^^^^^^^^
 
 Contains memories that support the tlm protocol:
 
 - `tlm_rom <tlms/tlm_memories/tlm_rom.hpp>`: implements a read-only memory
 
 tlm_router
-----------
+^^^^^^^^^^
 
 Contains routing logic for tlm messages:
 
