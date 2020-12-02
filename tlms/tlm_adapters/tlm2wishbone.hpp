@@ -66,7 +66,7 @@ struct TLM2WB: sc_module
     sc_event ack_event;
 
     // Maximum allocated time for the ack response
-    unsigned int timeout = 10;
+    unsigned int timeout = 1000;
     unsigned int elapsed {0};
 
     void setTimeout(unsigned int timeout) {
